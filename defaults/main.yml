@@ -1,2 +1,9 @@
 ---
-allow_reboot: True
+docker_repo_key: D8576A8BA88D21E9
+docker_repo_url: deb http://get.docker.io/ubuntu docker main
+dokku_repo_key: EAD883AF
+dokku_repo_url: deb https://dokku-alt.github.io/dokku-alt /
+dokku_root: /home/dokku
+dokku_pkg: dokku-alt
+dokku_docker_opts: --ip=127.0.0.1
+dokku_plugins: []
