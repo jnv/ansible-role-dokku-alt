@@ -1,0 +1,5 @@
+# {{ansible_managed}}
+# this file is sourced by dokku
+{% for var, value in dokkurc.iteritems() %}
+export {{var | upper}}="{{value}}"
+{% endfor %}
