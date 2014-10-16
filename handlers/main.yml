@@ -1,2 +1,7 @@
 ---
 # handlers file for dokku
+- name: install dokku plugins
+  command: dokku plugins-install
+
+- name: restart docker
+  service: name=docker state=restarted
